@@ -1,2 +1,2 @@
 # python-samples
-Collection of some sample python set
+Collection of some sample python scripts.
