@@ -19,7 +19,8 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# I put stuff in lib... sue me...
+# lib/
 lib64/
 parts/
 sdist/
@@ -61,3 +62,6 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# vim temp files
+.*.swp
