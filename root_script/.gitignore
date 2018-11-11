@@ -1,0 +1,11 @@
+# vim temp files
+.*.swp
+.*.swo
+
+# python dirs
+venv/
+build/
+dist/
+
+# stuff for testing
+install
