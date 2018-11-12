@@ -34,7 +34,7 @@ clean:
 	find . -depth -name __pycache__ -exec rm -rf {} \;
 
 test:
-	$(FLAKE8_CMD) my-script.py
+	$(FLAKE8_CMD) my-script
 	$(FLAKE8_CMD) setup.py
 
 test-install:
