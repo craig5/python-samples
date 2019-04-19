@@ -34,14 +34,14 @@ clean:
 	find . -depth -name __pycache__ -exec rm -rf {} \;
 
 test:
-	$(FLAKE8_CMD) my-script
+	$(FLAKE8_CMD) {{cookiecutter.script_name}}
 	$(FLAKE8_CMD) setup.py
 
 test-install:
 	$(SYS_PYTHON_CMD) -m venv $(INSTALL_DIR)
 	$(PYTHON_CMD) setup.py bdist_wheel
 	$(INSTALL_DIR)/bin/pip3 install dist/{{cookiecutter.proj_name}}-0.0.1-py3-none-any.whl
-	$(INSTALL_DIR)/bin/my-script.py
+	$(INSTALL_DIR)/bin/{{cookiecutter.script_name}}
 
 help:
 	@echo "Please choose from the following:"
