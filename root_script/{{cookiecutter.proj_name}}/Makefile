@@ -40,7 +40,7 @@ test:
 test-install:
 	$(SYS_PYTHON_CMD) -m venv $(INSTALL_DIR)
 	$(PYTHON_CMD) setup.py bdist_wheel
-	$(INSTALL_DIR)/bin/pip3 install dist/root_script-0.0.1-py3-none-any.whl
+	$(INSTALL_DIR)/bin/pip3 install dist/{{cookiecutter.proj_name}}-0.0.1-py3-none-any.whl
 	$(INSTALL_DIR)/bin/my-script.py
 
 help:

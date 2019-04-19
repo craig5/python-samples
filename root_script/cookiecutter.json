@@ -1,0 +1,10 @@
+{
+    "proj_name": "root_script",
+    "proj_description": "Example of just a single script in the root dir.",
+    "proj_author": "Craig Sebenik",
+    "proj_author_email": "craig5@users.noreply.github.com",
+    "proj_url": "http://www.friedserver.com/",
+    "script_name": "my-script",
+    "astronomic_scope": "World"
+}
+
