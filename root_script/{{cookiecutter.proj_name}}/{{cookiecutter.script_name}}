@@ -8,7 +8,7 @@ Simple script that doesn't do shit...
 
 
 def main():
-    print('Hello, space.')
+    print('Hello, {{cookiecutter.astronomic_scope}}.')
 
 
 if __name__ == '__main__':
