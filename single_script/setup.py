@@ -9,7 +9,7 @@ setup_args = {
     'version': '0.0.1',
     'description': 'Example with a single script.',
     'author': 'Craig Sebenik',
-    'author_email': 'craig@users.noreply.github.com',
+    'author_email': 'craig5@users.noreply.github.com',
 }
 
 
